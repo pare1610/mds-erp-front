@@ -22,7 +22,7 @@ export const provideKeycloakAngular = () =>
   provideKeycloak({
     config: {
       realm: 'MDSERP',
-      url: 'https://erp.proelectricos.com/keycloak',
+      url: 'https://erp.proelectricos.com/auth',
       clientId: 'mds-erp-front',
     },
     initOptions: {
